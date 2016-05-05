@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     
     s.dependency 'NBUCore', '>= 2.0.3'
     s.dependency 'CocoaLumberjack/Swift', '>= 2.3.0' 
-    s.dependency 'NBULog'
+    #s.dependency 'NBULog'
 
     s.source_files = 'Source/*.{h,m}'
     s.resources    = 'Source/*.{storyboard}'
