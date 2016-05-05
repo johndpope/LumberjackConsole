@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
     
     s.name          = "LumberjackConsole"
-    s.version       = "2.4.5"
+    s.version       = "2.4.4"
     s.summary       = "On-device CocoaLumberjack console with support for search, adjust levels, copying and more."
     s.homepage      = "http://ptez.github.io/LumberjackConsole"
     
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     
     s.dependency 'NBUCore', '>= 2.0.3'
     s.dependency 'CocoaLumberjack/Swift', '>= 2.3.0' 
-    s.dependency 'NBULog', :git =>'git@github.com:johndpope/NBULog.git'
+    s.dependency 'NBULog'
 
     s.source_files = 'Source/*.{h,m}'
     s.resources    = 'Source/*.{storyboard}'
